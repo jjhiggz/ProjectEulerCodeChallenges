@@ -4,6 +4,8 @@
 // 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 // By considering the terms in the Fibonacci sequence whose values do not exceed n, find the sum of the even-valued terms.
 
+// for shits and giggles, I decided to make this one with a recursive function
+
 function fiboEvenSum(n) {
 
   function createFib(array,max){
